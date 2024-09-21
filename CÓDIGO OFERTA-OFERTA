@@ -4,7 +4,7 @@ def oferta_3x2(cantidad, precio_unitario):
     total = productos_a_pagar * precio_unitario
     ahorro = (cantidad - productos_a_pagar) * precio_unitario
     return total, ahorro
-
+""" Esta función permite calcular el total a pagar así como el ahorro en una oferta tipo 3x2. En donde cada grupo de 3 solamente se pagan 2 productos. Esto se realiza dividiendo la cantidad de productos en grupos de 3 y sumando alguno otro que no logre agruparse."""
 def calcular_oferta_2x1(cantidad, precio_unitario):
     total = 0
     ahorro = 0
@@ -15,7 +15,7 @@ def calcular_oferta_2x1(cantidad, precio_unitario):
         else: 
             total += precio_unitario
     return total, ahorro
-
+“””Esta función calcula el total y el ahorro para la oferta de 2x1 . Por cada 2 productos, uno se paga. En esta función se agrupan en pares la cantidad de productos y alguno que sea impar se paga sin el descuento. “”” 
 def calcular_oferta_2x1_5(cantidad, precio_unitario):
     total = 0
     ahorro = 0
