@@ -8,3 +8,26 @@ Se utilizarían los conceptos de funciones, para poder tener un "banco" de las o
 
 
 
+Algoritmo General
+
+
+Entrada:  Usuario ingresa una opción del menú para calcular la oferta o salir 
+          Usuario ingresa el tipo de oferta ue quiere calcular 
+
+PROCESO:  Si el usuario selecciona 1. Calcular oferta 
+               Desplegar opciones de ofertas para que el usuario seleccione la opción deseada
+                         Si la opción es 3x2 
+                                   Preguntar cantidad de productos a comprar y precio unitario 
+                                   Separar cantidad de productos en grupos de 3 y por cada 3 multiplicar el precio unitario *2 
+                         Si la opción es 2x1 
+                                    Preguntar cantidad de productos a comprar y precio unitario 
+                                   Separar cantidad de productos en grupos de 2 y  solamente sumar 1 precio unitario 
+                          Si la opción es 2x1.5 
+                                    Preguntar cantidad de productos a comprar y precio unitario 
+                                   Separar cantidad de productos en grupos de 2 y  multiplicar precio unitario *0.5 
+          Si el usuaro selecciona 2. Salir 
+                          Desplegar mensaje de despedida 
+
+   SALIDA: 
+
+TOTAL DE AHORRO POR CADA OFERTA Y COMPARAR PRECIOS 
